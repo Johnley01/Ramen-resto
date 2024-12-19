@@ -1,0 +1,1180 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'sans-serif';
+
+}
+
+#global {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#bobo {
+
+    float: left;
+    width: 100%;
+    height: auto;
+    background-color: blanchedalmond;
+    margin-top: 5px;
+}
+
+#tet {
+    float: left;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 0px;
+
+}
+
+/*#tet img {
+    width: 5%;
+    margin: 5px 2%;
+}*/
+
+
+#tet1 {
+    float: left;
+    width: 100%;
+
+}
+
+#tet1 img {
+    width: 5%;
+    margin: 5px 2%;
+}
+
+#nav1 {
+    float: right;
+
+
+
+}
+
+#nav1 ul a {
+    text-decoration: 0px;
+    margin: 10px 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Arial';
+    text-transform: uppercase;
+    float: right;
+
+}
+
+#nav1 ul a:hover {
+    color: rgb(255, 81, 0);
+    font-size: 25px;
+    border-left: rgb(155, 29, 29) 4px solid;
+    margin: 5px 5px;
+    padding: 5px 5px;
+
+}
+
+#sec1 {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    height: 565px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 2px 0px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.list1 {
+    float: left;
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+
+.list1 img {
+    width: 488px;
+    height: 648px;
+}
+
+.list1 span {
+    font-size: 50px;
+    font-family: 'Gothic';
+
+
+}
+
+/*.list1 img:nth-child(1) {
+    size-adjust: 600px;
+    filter: drop-shadow(0px 0px 5px 0px);
+
+}*/
+
+.list1 p {
+    color: brown;
+    padding: 20px;
+    font-family: 'Gothic';
+    font-size: 20px;
+}
+
+#sec2 {
+
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+
+    height: 300px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 2px 0px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#list2 {
+
+    float: left;
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 300px;
+
+}
+
+#list2 img {
+    width: 480px;
+    height: 280px;
+    margin-top: 10px;
+
+}
+
+#sec3 {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+
+    height: 300px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 2px 0px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+
+#list3 {
+
+    float: left;
+    width: 100%;
+
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 300px;
+}
+
+#list3 img {
+    width: 480px;
+    height: 280px;
+    margin-top: 10px;
+}
+
+#sec4 {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+
+    height: 300px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 2px 0px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+#list4 {
+    float: left;
+    width: 100%;
+
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 300px;
+    /*float: left;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 2px 0px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 300px;*/
+}
+
+#list4 img {
+    width: 480px;
+    height: 280px;
+    margin-top: 10px;
+
+}
+
+
+#sec5 {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+
+    height: 300px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 2px 0px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#list5 {
+    float: left;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 300px;
+
+
+    /*float: left;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 2px 0px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 300px;*/
+}
+
+#list5 img {
+    width: 300px;
+    height: 300px;
+
+}
+
+/*footer
+
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1 fr);
+    gap: 50px;
+}*/
+
+.pied {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+
+    box-shadow: 0px 1px 4px 0px;
+    background-color: white;
+}
+
+#pied1 {
+    float: left;
+    padding: 10px 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+#list_link {
+    float: left;
+    width: 100%;
+}
+
+#list_link a {
+
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: brown;
+    margin: 50px;
+}
+
+#list_link a:hover {
+    color: rgb(255, 81, 0);
+    font-size: 40px;
+}
+
+#rezo_sosyo {
+    float: left;
+    width: 100%;
+
+}
+
+#rezo_sosyo span {
+
+    font-family: 'arial';
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+#rezo_sosyo a {
+    text-decoration: none;
+    margin: 10px 10px;
+
+
+}
+
+#rezo_sosyo img {
+
+    width: 60x;
+    height: 60px;
+
+}
+
+#imaj {
+    width: 50px !important;
+    height: 50px !important;
+
+}
+
+#imj {
+    width: 55px !important;
+    height: 55px !important;
+
+}
+
+.log {
+    float: left;
+    width: 100%;
+
+}
+
+.log h1 {
+    text-align: justify;
+    font-family: 'Gothic Medium';
+    font-size: 40px;
+}
+
+.log input {
+    float: left;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px 0px;
+    margin: 10px;
+    border: none;
+}
+
+
+.log button {
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    font-family: 'arial';
+    border: none;
+}
+
+.log button:hover {
+    background-color: white;
+    color: rgb(255, 81, 0);
+    box-shadow: 2px 2px 1px 0px;
+
+
+}
+
+.log button a {
+    color: brown;
+}
+
+.log p {
+    float: left;
+    font-family: 'arial';
+    font-size: 30px;
+
+}
+
+.log a {
+    text-decoration: none;
+}
+
+/*service*/
+
+.section_body {
+    float: left;
+    width: 100%;
+    height: 3630px;
+    /*padding:10px 10px;*/
+    box-shadow: 0px 1px 2px 0px;
+    /*background-image:url(..images/tifle_vet.jpg);*/
+    margin-top: 10px;
+}
+
+.section_body h2 {
+    text-transform: lowercase;
+
+    margin-left: 45%;
+    color: red;
+
+}
+
+#partie1 {
+    float: left;
+    width: 100%;
+
+
+}
+
+#partie1 h1 {
+    float: left;
+    width: 25%;
+    margin-left: 10%;
+    color: rgb(255, 81, 0);
+    font-size: 40px;
+    font-family: 'gothic';
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+
+#partie1 p {
+    float: left;
+    width: 50%;
+    color: rgb(155, 29, 29);
+    font-size: 30px;
+    font-family: 'georgia';
+    text-transform: uppercase;
+
+}
+
+#partie1 img {
+
+    float: left;
+    width: 20%;
+    margin-top: 20px;
+
+}
+
+#partie1a {
+    float: left;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 3px 0px;
+}
+
+#partie1a img {
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    height: 500px;
+
+}
+
+#partie2 {
+
+    float: left;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 3px 0px;
+}
+
+#partie2 img {
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    height: 500px;
+}
+
+#partie3 {
+    float: left;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 3px 0px;
+
+}
+
+#partie3 img {
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    height: 500px;
+}
+
+#partie4 {
+    float: left;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 3px 0px;
+
+
+}
+
+#partie4 img {
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    height: 500px;
+}
+
+#partie5 {
+
+    float: left;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 3px 0px;
+
+}
+
+#partie5 img {
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    height: 500px;
+}
+
+/*partie contact*/
+#contact {
+    float: left;
+    width: 100%;
+    height: 615px;
+}
+
+#contact-from {
+
+    float: left;
+    width: 50%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 25%;
+
+}
+
+input {
+    width: 100%;
+    float: left;
+    margin: 5px 0px;
+    padding: 10px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin: 5px 0px;
+    padding: 10px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+button {
+    width: 70px;
+    float: right;
+    margin: 5px 0px;
+    background: orange;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+/*partie menu deroullante*/
+#eseye {
+    float: left;
+    width: 100%;
+    height: 615px;
+    background-color: blanchedalmond;
+    background-image: url(../images/vecteur.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    font-family: Arial;
+    float: left;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-top: 50px;
+    height: 250px;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 5px 0px;
+}
+
+/* The dropdown container */
+#dropdown {
+    float: left;
+    width: 50%;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 25%;
+    background-color: brown;
+    border-radius: 20px 50px 20px 50px;
+    overflow: hidden;
+
+}
+
+/* Dropdown button */
+
+#buton {
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    padding: 7px 45px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: WHITE;
+    font-family: 'gothic';
+}
+
+#buton:hover>:not(:hover) {
+    filter: blur(5px);
+    opacity: 0.5;
+    background-color: WHITE;
+    color: brown;
+    float: left;
+
+}
+
+/* Add a red background color to navbar links on hover */
+
+/*.navbar a:hover,
+#dropdown:hover .dropbtn {
+    background-color: blue;
+    
+}*/
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: brown;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    border-radius: 20px;
+
+    border-bottom: rgb(155, 29, 29) 4px solid;
+    font-size: 20px;
+
+}
+
+/* Show the dropdown menu on hover */
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*PARTIE pizza code prensipal 1 kadran tout meni resto a*/
+
+.body_menu {
+    padding: 2.5%;
+    background-color: blanchedalmond;
+    height: 2320px;
+}
+
+/*
+.body_menu a {
+    width: 5%;
+    height: 10px;
+   
+    background-color: rgb(255, 85, 0);
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.body_menu a:hover {
+   
+    color: rgba(255, 85, 0);
+    background-color: white;
+}*/
+
+
+#body_menu_ramen {
+    background-color: brown;
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 10px 60px 10px 60px;
+
+}
+
+#body_menu_ramen p {
+    font-size: 25px;
+    font-family: 'Gothic Medium';
+    padding: 20px 20px;
+
+}
+
+#body_menu_ramen h1 {
+    font-size: 25px;
+    font-family: 'Gothic';
+    padding: 20px;
+    font-style: bold;
+    color: white;
+    background-color: rgb(241, 23, 23);
+    width: 8%;
+    margin-left: 20px;
+    border-radius: 10px 20px 0px 20px;
+
+}
+
+#body_menu_ramen h1:hover {
+    color: rgb(241, 23, 23);
+    background-color: white;
+
+}
+
+#imaj_ramen {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 40px;
+    float: left;
+    width: 90%;
+    margin-left: 10%;
+}
+
+#imaj_ramen div img {
+    width: 50%;
+    height: 140px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px 0px;
+}
+
+#imaj_piz p {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+
+
+
+    font-size: 25px;
+
+}
+
+#imaj_piz span {
+    font-family: 'Georgia';
+    text-transform: uppercase;
+    color: brown;
+
+}
+
+#order_piz {
+    float: left;
+    width: 90%;
+    padding: -10%;
+
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    height: 25px;
+    width: 45px;
+    padding: 15px 20px;
+    margin: 5px 5px;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 20px;
+    font-family: 'gothic-medium';
+}
+
+#order_piz:hover {
+
+    font-size: 20px;
+    font-family: 'gothic-medium';
+    color: white;
+    background-color: red;
+    border-radius: 15px 0px 15px 0px;
+    transition: 1s;
+}
+
+
+/*
+    text-align: justify;
+    font-family: Georgia;
+    font-size: 20px;
+}*/
+
+
+/*PARTIE dejeuner*/
+
+
+.body_dej {
+    padding: 2.5%;
+    background-color: blanchedalmond;
+    height: 2100px;
+
+}
+
+#body_menu_dej {
+    background-color: brown;
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 10px 60px 10px 60px;
+
+}
+
+#body_menu_dej p {
+    font-size: 25px;
+    font-family: 'Gothic Medium';
+    padding: 20px 20px;
+
+}
+
+#body_menu_dej h1 {
+    font-size: 25px;
+    font-family: 'Gothic';
+    padding: 20px;
+    font-style: bold;
+    color: white;
+    background-color: rgb(241, 23, 23);
+    width: 8%;
+    margin-left: 20px;
+    border-radius: 10px 20px 0px 20px;
+
+}
+
+#body_menu_dej h1:hover {
+    color: rgb(241, 23, 23);
+    background-color: white;
+
+}
+
+#imaj_dej {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 30px;
+    float: left;
+    width: 90%;
+    margin: 0% 10%;
+
+
+}
+
+#imaj_dej img {
+    width: 50%;
+    height: 140px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px 0px;
+}
+
+#imaj_dej p {
+    float: left;
+    width: 90%;
+    margin-top: 5px;
+
+
+
+    font-size: 25px;
+
+}
+
+#imaj_dej span {
+    font-family: 'Georgia';
+    text-transform: uppercase;
+    color: brown;
+
+}
+
+#order_deuj {
+    float: left;
+    width: 90%;
+    padding: -10%;
+
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    height: 25px;
+    width: 45px;
+    padding: 15px 20px;
+    margin: 5px 5px;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 20px;
+    font-family: 'gothic-medium';
+}
+
+#order_deuj:hover {
+
+    font-size: 20px;
+    font-family: 'gothic-medium';
+    color: white;
+    background-color: red;
+    border-radius: 15px 0px 15px 0px;
+    transition: 1s;
+}
+
+
+
+/*PARTIE dessert*/
+
+.body_des {
+    padding: 2.5%;
+    background-color: blanchedalmond;
+    height: 2150px;
+}
+
+
+#body_menu_des {
+    background-color: brown;
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 10px 60px 10px 60px;
+
+}
+
+#body_menu_des p {
+    font-size: 25px;
+    font-family: 'Gothic Medium';
+    padding: 20px 20px;
+
+}
+
+#body_menu_des h1 {
+    font-size: 25px;
+    font-family: 'Gothic';
+    padding: 20px;
+    font-style: bold;
+    color: white;
+    background-color: rgb(241, 23, 23);
+    width: 8%;
+    margin-left: 20px;
+    border-radius: 10px 20px 0px 20px;
+
+}
+
+#body_menu_des h1:hover {
+    color: rgb(241, 23, 23);
+    background-color: white;
+
+}
+
+#imaj_des {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 40px;
+    float: left;
+    width: 90%;
+    margin-left: 10%;
+}
+
+#imaj_des div img {
+    width: 50%;
+    height: 140px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px 0px;
+}
+
+#imaj_des p {
+    float: left;
+    width: 90%;
+    margin-top: 5px;
+
+
+
+    font-size: 25px;
+
+}
+
+#imaj_des span {
+    font-family: 'Georgia';
+    text-transform: uppercase;
+    color: brown;
+
+}
+
+#order_des {
+    float: left;
+    width: 90%;
+    padding: -10%;
+
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    height: 25px;
+    width: 45px;
+    padding: 15px 20px;
+    margin: 5px 5px;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 20px;
+    font-family: 'gothic-medium';
+}
+
+#order_des:hover {
+
+    font-size: 20px;
+    font-family: 'gothic-medium';
+    color: white;
+    background-color: red;
+    border-radius: 15px 0px 15px 0px;
+    transition: 1s;
+}
+
+
+/*PARTIE burger*/
+
+.body_burg {
+    padding: 2.5%;
+    background-color: blanchedalmond;
+    height: 2400px;
+}
+
+
+#body_menu_burg {
+    background-color: brown;
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 10px 60px 10px 60px;
+
+}
+
+#body_menu_burg p {
+    font-size: 25px;
+    font-family: 'Gothic Medium';
+    padding: 20px 20px;
+
+}
+
+#body_menu_burg h1 {
+    font-size: 25px;
+    font-family: 'Gothic';
+    padding: 20px;
+    font-style: bold;
+    color: white;
+    background-color: rgb(241, 23, 23);
+    width: 8%;
+    margin-left: 20px;
+    border-radius: 10px 20px 0px 20px;
+
+}
+
+#body_menu_burg h1:hover {
+    color: rgb(241, 23, 23);
+    background-color: white;
+
+}
+
+#imaj_burg {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 40px;
+    float: left;
+    width: 90%;
+    margin-left: 10%;
+}
+
+#imaj_burg div img {
+    width: 50%;
+    height: 140px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px 0px;
+}
+
+#imaj_burg p {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#imaj_burg span {
+    font-family: 'Georgia';
+    text-transform: uppercase;
+    color: brown;
+}
+
+#order_burg {
+    float: left;
+    width: 90%;
+    padding: -10%;
+
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    height: 25px;
+    width: 45px;
+    padding: 15px 20px;
+    margin: 5px 5px;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 20px;
+    font-family: 'gothic-medium';
+}
+
+#order_burg:hover {
+
+    font-size: 20px;
+    font-family: 'gothic-medium';
+    color: white;
+    background-color: red;
+    border-radius: 15px 0px 15px 0px;
+    transition: 1s;
+}
+
+#containt_apropos {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+}
+
+#containt_apropos img {
+   
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+#containt_apropos p {
+   
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: 'georgia';
+
+    text-align: justify;
+}
+
+#containt_apropos span {
+    text-align: justify;
+
+}
