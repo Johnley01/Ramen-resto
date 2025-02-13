@@ -1,0 +1,1097 @@
+/*page INDEX*/
+/* style.css */
+
+body {
+    font-family: 'arial';
+
+    a {
+        text-decoration: none;
+    }
+
+    margin: 0 !important;
+    padding: 0;
+    background-color: none;
+
+}
+
+header {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tet {
+
+    height: 65px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 0px;
+}
+
+#tet1 img {
+    width: 5%;
+    float: left;
+    margin: 20px 0px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    float: right;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+nav a {
+    text-decoration: 0px;
+    font-family: Arial;
+
+    margin: 20px 10px !important;
+
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Arial';
+    text-transform: uppercase;
+    float: right !important;
+
+
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#nav1 a:hover {
+    color: rgb(255, 81, 0);
+    font-size: 25px;
+    border-left: rgb(155, 29, 29) 4px solid;
+    border-bottom: rgb(172, 25, 25) 2px solid;
+    transition-duration: 1s;
+    margin: 5px 5px;
+    padding: 5px 5px;
+
+}
+
+
+section {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.pied {
+
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: auto;
+    margin-top: 10px;
+
+    box-shadow: 0px 1px 4px 0px;
+    background-color: white;
+}
+
+#pied1 {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.log {
+    width: 100%;
+}
+
+.log input {
+    width: 50% !important;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px 0px;
+
+}
+
+.log button {
+    width: 50%;
+    background: #ff7e5f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'arial';
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    outline: none;
+
+}
+
+.log button :hover {
+    background-color: white;
+    color: rgb(255, 81, 0);
+}
+
+#rezo_sosyo p {
+    font-family: 'Franklin';
+    font-size: 20px;
+
+}
+
+#sec1 p,
+#sec2 p,
+#sec3 p,
+#sec4 p,
+#sec5 p {
+    font-family: 'Franklin';
+    font-size: 20px;
+}
+
+/*partie contact*/
+#contact {
+    float: left;
+    width: 100%;
+    height: 615px;
+}
+
+#contact-from {
+
+    float: left;
+    width: 50%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 25%;
+
+}
+
+input {
+    width: 100%;
+    float: left;
+    margin: 5px 0px;
+    padding: 10px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin: 5px 0px;
+    padding: 10px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+button {
+    width: 70px;
+    float: right;
+    margin: 5px 0px;
+    background: orange;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+
+/* page service*/
+
+#containt_apropos {
+    text-align: center;
+    padding: 50px 30px;
+    background: white;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+#containt_apropos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+#containt_apropos p {
+    font-size: 25px;
+    font-family: 'Gothic Medium';
+    text-align: justify;
+
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 760px) {}
+
+.section_body {
+    text-align: center;
+    padding: 50px 30px;
+    background: white;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.container_ser {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container_ser div {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.container_ser img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Responsive CSS */
+
+.btn_menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.btn_menu div {
+    width: 30px;
+    height: 4px;
+    background: rgb(255, 0, 0);
+    margin: 5px;
+    transition: 0.3s;
+}
+
+#eseye {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.navbar {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: inline-block;
+    font-family: Arial;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px 0px;
+}
+
+#dropdown {
+
+    position: relative;
+    display: inline-block;
+    background-color: brown;
+    border-radius: 20px 50px 20px 50px;
+}
+
+#buton {
+    background: brown;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#buton:hover {
+    background-color: WHITE;
+    color: brown;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: brown;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    /* color: #333;
+        padding: 12px 16px;
+        display: block;
+        text-decoration: none;
+        transition: background 0.3s;*/
+}
+
+.dropdown-content a:hover {
+    border-radius: 20px;
+
+    border-bottom: rgb(155, 29, 29) 4px solid;
+    font-size: 20px;
+}
+
+/*kod ajoute pou fe bel*/
+#contact-from p {
+
+    font-family: 'cambria';
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px !important;
+    color: brown;
+}
+
+button {
+    float: left;
+    margin-left: 45%;
+
+}
+
+#buton:hover>:not(:hover) {
+    filter: blur(5px);
+    opacity: 0.5;
+    background-color: WHITE;
+    color: brown;
+    float: left;
+
+}
+
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Responsive CSS */
+@media screen and (max-width: 760px) {}
+
+.body_dej {
+    text-align: center;
+    padding: 50px 30px;
+    background-color: white;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+#imaj_dej {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+#imaj_dej div {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+#imaj_dej div:hover {
+    transform: scale(1.05);
+}
+
+#imaj_dej img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#body_menu_dej p {
+    font-size: 25px;
+    font-family: 'Gothic Medium';
+    text-align: center;
+
+
+
+}
+
+#body_menu_dej h1 {
+    background-color: rgb(241, 23, 23);
+    color: white;
+    font-family: 'Gothic';
+    font-style: bold;
+    font-size: 25px;
+}
+
+#body_menu_dej h1:hover {
+    color: rgb(241, 23, 23);
+    background-color: white;
+    font-size: 30px;
+}
+
+
+#imaj_dej p {
+
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+#imaj_dej span {
+    font-family: 'Georgia';
+    text-transform: uppercase;
+    color: brown;
+
+}
+
+
+
+#order_deuj {
+    display: inline-block;
+    background-color: blanchedalmond;
+    color: red;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-radius: 0px 15px 0px 15px;
+
+    font-family: 'gothic-medium';
+    font-size: 20px;
+
+}
+
+#order_deuj:hover {
+    font-size: 20px;
+    font-family: 'gothic-medium';
+    color: white;
+    background-color: red;
+    border-radius: 15px 0px 15px 0px;
+    transition: 1s;
+}
+
+
+
+
+#body_menu_des h1 {
+    background-color: rgb(241, 23, 23);
+    color: white;
+    font-family: 'Gothic';
+    font-style: bold;
+    font-size: 25px;
+}
+
+#body_menu_des h1:hover {
+    color: rgb(241, 23, 23);
+    background-color: white;
+    font-size: 30px;
+}
+
+
+#imaj_des p {
+
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+#imaj_des span {
+    font-family: 'Georgia';
+    text-transform: uppercase;
+    color: brown;
+
+}
+
+
+
+#order_des:hover {
+    font-size: 20px;
+    font-family: 'gothic-medium';
+    color: white;
+    background-color: red;
+    border-radius: 15px 0px 15px 0px;
+    transition: 1s;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 760px) {
+
+
+    /* Menu items */
+    #body_menu_des {
+        margin-top: 40px;
+    }
+
+    #body_menu_des h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    #imaj_des {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    #imaj_des div {
+        background-color: blanchedalmond;
+        padding: 10px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    #imaj_des img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    #imaj_des p {
+        margin-top: 10px;
+    }
+
+    #order_des {
+        display: inline-block;
+        background-color: blanchedalmond;
+        color: red;
+
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-size: 16px;
+        border-radius: 0px 15px 0px 15px;
+        font-family: 'gothic-medium';
+        font-size: 20px;
+
+    }
+
+    #order_des:hover {
+        font-size: 20px;
+        font-family: 'gothic-medium';
+        color: white;
+        background-color: red;
+        border-radius: 15px 0px 15px 0px;
+        transition: 1s;
+    }
+
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    #imaj_des {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #imaj_des {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #imaj_des {
+        grid-template-columns: 1fr;
+    }
+
+    #tet1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+/* This file will overwrite some styles for smaller screens */
+@media screen and (max-width: 760px) {}
+
+
+/* Menu items section */
+#body_menu_des {
+    margin-top: 40px;
+}
+
+#body_menu_des h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#imaj_des {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#imaj_des div {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#imaj_des img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#imaj_des p {
+    margin-top: 10px;
+}
+
+/*
+#order_piz {
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    height: 25px;
+    width: 45px;
+    padding: 15px 20px;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 20px;
+    font-family: 'gothic-medium';
+}
+
+#order_piz:hover {
+
+    font-size: 20px;
+    font-family: 'gothic-medium';
+    color: white;
+    background-color: red;
+    border-radius: 15px 0px 15px 0px;
+    transition: 1s;
+}
+*/
+#order_des {
+    display: inline-block;
+    background-color: white;
+    color: red;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 20px;
+    font-family: 'gothic-medium';
+    height: 25px;
+    width: 45px;
+}
+
+#order_des:hover {
+    font-size: 20px;
+    font-family: 'gothic-medium';
+    color: white;
+    background-color: red;
+    border-radius: 15px 0px 15px 0px;
+    transition: 1s;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    #imaj_des {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #imaj_des {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #imaj_des {
+        grid-template-columns: 1fr;
+    }
+
+    #tet1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+}
+
+/* This file will overwrite some styles for smaller screens */
+@media screen and (max-width: 760px) {
+
+    /* Adjustments for mobile screens */
+    body {
+        padding: 0;
+    }
+
+}
+
+/* Mobile Menu Button */
+
+
+/* Section */
+.body_menu {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#imaj_ramen {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#imaj_ramen p {
+    font-family: 'Gothic Medium';
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+#imaj_ramen span {
+    font-family: 'Georgia';
+    text-transform: uppercase;
+    color: brown;
+
+}
+
+#body_menu_ramen h1 {
+    background-color: rgb(241, 23, 23);
+    color: white;
+    font-family: 'Gothic';
+    font-style: bold;
+    font-size: 25px;
+}
+
+#body_menu_ramen h1:hover {
+    color: rgb(241, 23, 23);
+    background-color: white;
+    font-size: 30px;
+}
+
+#body_menu_ramen p {
+    font-size: 25px;
+    font-family: 'Gothic Medium';
+    padding: 20px 20px;
+
+}
+
+.pizza-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pizza-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+.pizza-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.pizza-item a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pizza-item a:hover {
+    background-color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 760px) {
+    #tet {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pizza-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+
+
+
+
+#order_piz {
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    height: 25px;
+    width: 45px;
+    padding: 15px 20px;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 20px;
+    font-family: 'gothic-medium';
+}
+
+#order_piz:hover {
+
+    font-size: 20px;
+    font-family: 'gothic-medium';
+    color: white;
+    background-color: red;
+    border-radius: 15px 0px 15px 0px;
+    transition: 1s;
+}
+
+
+
+
+
+
+#body_menu_burg h1 {
+    background-color: rgb(241, 23, 23);
+    color: white;
+    font-family: 'Gothic';
+    font-style: bold;
+    font-size: 25px;
+}
+
+#body_menu_burg h1:hover {
+    color: rgb(241, 23, 23);
+    background-color: white;
+    font-size: 30px;
+}
+
+#body_menu_burg p {
+    font-size: 25px;
+    font-family: 'Gothic Medium';
+    padding: 20px 20px;
+
+}
+
+#imaj_burg p {
+    font-family: 'Gothic Medium';
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+#imaj_burg span {
+    font-family: 'Georgia';
+    text-transform: uppercase;
+    color: brown;
+
+}
+
+
+
+#order_burg {
+    display: inline-block;
+    background-color: blanchedalmond;
+    color: red;
+
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 0px 15px 0px 15px;
+    font-family: 'gothic-medium';
+    font-size: 20px;
+
+}
+
+#order_burg:hover {
+    font-size: 20px;
+    font-family: 'gothic-medium';
+    color: white;
+    background-color: red;
+    border-radius: 15px 0px 15px 0px;
+    transition: 1s;
+}
+
+
+
+
+.container-sing {
+
+    background: blanchedalmond;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    width: 50%;
+    margin-left: 25%;
+    height: 550px;
+    text-align: center;
+
+
+}
+
+.container-sing h1 {
+    color: brown;
+}
+
+.container-sing p {
+    float: left;
+    font-weight: bold;
+    color: brown;
+    text-align: left;
+}
+
+.container-sing input {
+    width: 90%;
+    float: left;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border: 1px solid brown;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.container-sing input:focus {
+    border-color: blanchedalmond;
+    outline: none;
+    box-shadow: 0 0 5px rgba(243, 91, 104, 0.5);
+}
+
+.container-sing button {
+    font-family: ' Gothic Medium' !important;
+    font-size: 20px !important;
+    float: left !important;
+    width: 80px !important;
+    outline: none !important;
+    margin-left: 38% !important;
+
+}
+
+
+#rezo_sosyo img {
+    width: 35px;
+    margin: 5px;
+
+
+}
+
+
+
+
+#liv {
+    float: left;
+    height: auto;
+    width: 90%;
+    margin-left: 4%;
+    background-color: blanchedalmond;
+}
+
+.liste1 {
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    height: auto;
+    background-color: white;
+    font-family: 'gothic';
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.mood {
+    float: left;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+.mood h1{
+    font-family: 'Georgia';
+    text-transform: uppercase;
+    color: brown;
+
+}
+.mood p{
+    font-family: 'Georgia';
+    text-transform: lowercase;
+font-size:20px;
+  
+
+}
+
+.cal {
+font-family: 'arial';
+font-weight: bolder;
+font-size:35px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    float: left;
+    width: 100%;
+
+}
+.cal p{
+    font-family: 'Times New Roman', serif;
+    font-size:25px;
+    margin-top:-20px
+
+}
+.aller h1 {
+    font-family: 'Georgia';
+    text-transform: uppercase;
+    color: brown;
+}
+.all p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Cambria';
+}
